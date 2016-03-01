@@ -38,10 +38,10 @@
 ##  BINDIR       Hard Copies of TINKER Executables
 ##  LINKDIR      Linked Copies of TINKER Executables
 
-TINKERDIR = /users/mh43854/tinker_softcore/attempt2/attempt2/tinker-release
+TINKERDIR = ~/bin/tinker-release
 BINDIR = $(TINKERDIR)/bin
 LINKDIR = /usr/local/bin
-OPENMMDIR = /users/mh43854/openMMres/Python
+OPENMMDIR = /usr/local/openmm
 
 OPENMM_LIB_DIR = -L$(OPENMMDIR)/lib
 OPENMM_INCLUDE_DIR = $(OPENMMDIR)/include
