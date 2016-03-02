@@ -2269,8 +2269,6 @@ static void setupAmoebaMultipoleForce (OpenMM_System* system, FILE* log) {
     double polarityConversion = OpenMM_NmPerAngstrom*OpenMM_NmPerAngstrom
                                          *OpenMM_NmPerAngstrom;
     double dampingFactorConversion = sqrt(OpenMM_NmPerAngstrom);
-            FILE * testfile;
-        testfile = fopen("test.txt","w");
     OpenMM_AmoebaMultipoleForce* amoebaMultipoleForce;
     amoebaMultipoleForce = OpenMM_AmoebaMultipoleForce_create();
     OpenMM_System_addForce(system, (OpenMM_Force*) amoebaMultipoleForce);
